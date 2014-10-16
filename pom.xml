@@ -86,7 +86,8 @@
                                 <move todir="${destDir}">
                                     <filelist dir="${project.build.directory}/angular-schema-form-${upstream.version}/dist">
                                         <file name="schema-form.js" />
-                                        <file name="schema-form.js" />
+                                        <file name="schema-form.min.js" />
+                                        <file name="bootstrap-decorator.min.js" />
                                     </filelist>
                                 </move>
                             </target>
