@@ -19,7 +19,6 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <upstream.version>0.7.3</upstream.version>
-        <upstream.url>scm:git:https://github.com/webjars/angular-schema-form.git</upstream.url>
         <angular-schema-form.sourceUrl>https://github.com/Textalk/angular-schema-form/archive</angular-schema-form.sourceUrl>
         <destDir>${project.build.outputDirectory}/META-INF/resources/webjars/${project.artifactId}/${version}</destDir>
     </properties>
