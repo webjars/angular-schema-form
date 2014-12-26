@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>angular-schema-form</artifactId>
-    <version>0.7.3-1-SNAPSHOT</version>
+    <version>0.7.3-1</version>
     <name>angular-schema-form</name>
     <description>Generate forms from JSON schemas using AngularJS</description>
     <url>http://webjars.org</url>
@@ -53,7 +53,7 @@
         <url>http://github.com/webjars/angular-schema-form</url>
         <connection>scm:git:https://github.com/webjars/angular-schema-form.git</connection>
         <developerConnection>scm:git:https://github.com/webjars/angular-schema-form.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>angular-schema-form-0.7.3-1</tag>
     </scm>
     
     <build>
