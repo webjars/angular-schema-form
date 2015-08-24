@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>angular-schema-form</artifactId>
-    <version>0.8.8-SNAPSHOT</version>
+    <version>0.8.8</version>
     <name>angular-schema-form</name>
     <description>Generate forms from JSON schemas using AngularJS</description>
     <url>http://webjars.org</url>
@@ -53,7 +53,7 @@
         <url>http://github.com/webjars/angular-schema-form</url>
         <connection>scm:git:https://github.com/webjars/angular-schema-form.git</connection>
         <developerConnection>scm:git:https://github.com/webjars/angular-schema-form.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>angular-schema-form-0.8.8</tag>
     </scm>
     
     <build>
@@ -89,14 +89,14 @@
                         </goals>
                         <configuration>
                             <target>
-                                <echo message="unzip archive"/>
-                                <unzip src="${project.build.directory}/${project.artifactId}.zip" dest="${project.build.directory}"/>
-                                <echo message="moving resources"/>
+                                <echo message="unzip archive" />
+                                <unzip src="${project.build.directory}/${project.artifactId}.zip" dest="${project.build.directory}" />
+                                <echo message="moving resources" />
                                 <move todir="${destDir}">
                                     <filelist dir="${project.build.directory}/angular-schema-form-${upstream.version}/dist">
-                                        <file name="schema-form.js"/>
-                                        <file name="schema-form.min.js"/>
-                                        <file name="bootstrap-decorator.min.js"/>
+                                        <file name="schema-form.js" />
+                                        <file name="schema-form.min.js" />
+                                        <file name="bootstrap-decorator.min.js" />
                                     </filelist>
                                 </move>
                             </target>
